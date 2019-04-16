@@ -8,6 +8,9 @@ public class Lanmda {
 
     int min = 0;
 
+
+    int max = 100;
+
     private Lock lock = new ReentrantLock();
 
 
