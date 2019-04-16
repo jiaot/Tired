@@ -6,6 +6,7 @@ import java.util.function.Function;
 public class Lanmda {
 
 
+    int min = 0;
 
     private Lock lock = new ReentrantLock();
 
@@ -23,6 +24,8 @@ public class Lanmda {
         new Thread(()-> System.out.println("1232")).start();
 
        sysHello(str -> Integer.parseInt(str)+1);
+
+
     }
 
 
